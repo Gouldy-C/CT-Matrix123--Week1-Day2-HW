@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Amazon Ember", sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 15px 30px 25px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #0066c0;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(151, 73, 5);
+}
+
+button {
+    width: 100%;
+    font-family: "Amazon Ember", sans-serif;
+}
+
+main {
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-cont {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    padding: 20px; 
+    width: 100%; 
+    border-radius: 4px;  
+}
+
+.login-cont h3 {
+    font-size: 29px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.login {
+    width: 100%;
+}
+
+.login p, a {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 2px;
+}
+
+.f-pass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.f-pass p {
+    display: inline;
+}
+input {
+    border: 1px solid #a6a6a6;
+    height: 31px;
+    border-radius: 3px;
+    padding: 3px 6px;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+input:focus { 
+    outline: none; 
+    border: 1px solid rgb(247, 183, 64);
+    box-shadow: 0px 0px 5px 2px rgb(247, 183, 64);
+}
+
+.continue-but {
+    background-color: #f7c548;
+    border: 1px solid #00000053;
+    color: black;
+    border-radius: 3px;
+    padding: 1px 6px;
+    height: 29px;
+    margin-top: 15px;
+}
+
+.need {
+    margin-top: 20px;
+}
+
+.new {
+    color: rgba(0, 0, 0, 0.689);
+    font-size: 12px;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.392); 
+    line-height: 0.1em;
+    margin: 35px 0 15px 0;
+}
+
+p span {
+    background:#fff; 
+    padding:0 10px; 
+}
+
+hr {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    width: 100%;
+    margin: 25px 0px 0px 0px;
+}
+
+.create-but {
+    background-color: #ffffff;
+    border: 1px solid #00000053;
+    color: black;
+    border-radius: 3px;
+    padding: 1px 6px;
+    height: 29px;
+    margin-top: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12px;
+    text-align: center;
+    padding-bottom: 85px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+footer li {
+    display: inline;
+    margin: 10px 13px;
+
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+footer p {
+    color: rgba(0, 0, 0, 0.689);
+    font-size: 12px;
+}
+
+
+
+
