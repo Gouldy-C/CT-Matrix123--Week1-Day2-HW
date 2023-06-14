@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.background {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 274px;
+    background-color: rgb(72,62,251);
+    background-image: url(../styles/images/graphic.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 450px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+    flex-shrink: 0.5;
+    margin-left: 20px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px 10px 50px;
+}
+
+.number>p {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0px 10px 0px 0px;
+}
+
+#first {
+    background-color: rgb(191,227,254);
+    color: black;
+    border: 1px solid rgb(191,227,254);
+}
+
+.step {
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
+.title {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px 30px 10px 30px;
+    max-width: 500px;
+}
+
+.personal-info h2 {
+    font-size: 18px;
+}
+
+.personal-info>p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.info {
+    width: 100%;
+}
+
+.info p {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 15px 0 4px 0;
+}
+
+.info input {
+    width: 97%;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+.personal-info a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    background-color: rgb(4,41,88);
+    color: white;
+    font-size: 14px;
+    align-self:flex-end;
+    margin-top: 50px;
+    
+}
+
+.personal-info a:hover {
+    background-color: rgb(30, 97, 184);
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.25);
+}
+
+
+@media (max-width: 570px) {
+    main {
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+    .background {
+        height: 420px;
+        margin: 25px 0;
+    }
+
+    .number {
+        margin-left: 80px;
+    }
+
+    .personal-info a {
+        margin-top: 30px;
+    }
+
+    .personal-info {
+        max-width: 300px;
+    }
+}
